@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 export const GAME_RESULT = {
   IN_PROGRESS: " ",
   LOST: "Lost",
